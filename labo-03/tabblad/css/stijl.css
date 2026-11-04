@@ -1,0 +1,36 @@
+/* achter groend: koraalrode (#ff816f) arial, 5rem padding*/
+
+body{
+    background-color:#ff816f;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5rem;
+}
+
+/* h1 geel(#ffd500),harde zwarte schaduwen 
+box , border, padding, 15rem breedte, (border-bottom 0 3.5)*/
+
+h1{
+    background-color:#ffd500;
+    font-size: 1rem;
+    width: 15rem;
+    box-sizing: border-box;
+    padding: 0.50rem;
+    border: 0.25rem solid black;
+    border-bottom: 0;
+    box-shadow: -0.5rem 0.5rem black;
+}
+
+
+/*kaart wite, randen en schaduwen zwart 0.25dik, 35rem breed, box, border, padding */
+
+h2{
+    background-color: white;
+    font-size: 2.8rem;
+    width: 35rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    border: 0.25rem solid black;
+    box-shadow: -0.5rem 0.5rem black, 0.5rem 0.5rem black;
+    margin-top: 0;
+}
+

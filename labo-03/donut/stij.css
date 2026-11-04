@@ -1,0 +1,38 @@
+/*vierkant oranje, %, overflow, 90vh breede en hoogte, 5vh ruimte, #ec4b03,randen zwart 0.75rem */
+main{
+    box-sizing: border-box;
+    background-color: #ec4b03;
+    width: 90vh;
+    height: 90vh;
+    margin: 5vh auto;
+    border: 0.75rem solid black;
+}
+
+/*cirkel paarse, #b99ec1, randen zwart 0.75rem dik, 70%, 15%rondom */
+div{
+    box-sizing: border-box;
+    background-color: #b99ec1;
+    border: 0.75rem solid black;
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*vierkant geel, #f9b700, randen zwart 0.75rem dik, 90% van cirkel,  nav 7% */
+
+h1{
+    box-sizing: border-box;
+    background-color:#f9b700;
+    border:  0.75rem solid black;
+    width: 90%;
+    height: 90%;
+    margin: -7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
