@@ -1,0 +1,43 @@
+/*drie opceen rij, middelste dubble breed, cijfer, cijfers wit,vet 4rem, Arial
+10vh boven onder, 4vh liks rechts, tussen 4vh*/
+
+main{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 10vh 4vw;
+    gap: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+div:nth-child(1){
+background-color:darkturquoise;
+}
+
+div:nth-child(2){
+    background-color:darkviolet;
+    flex: 2;
+}
+div:nth-child(3){
+    background-color:deepskyblue;
+}
+
+
+
+
+
+
+
