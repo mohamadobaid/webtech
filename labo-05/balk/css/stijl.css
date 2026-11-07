@@ -1,0 +1,117 @@
+:root {
+    --color-papier: #f8f7f5;
+    --color-ink:#1a1a1a;
+    --color-gedempt :#6b6b6b;
+    --color-balk:#000000;
+    --color-links-balk:#9a9a9a;
+    --color-actief: #ffffff;
+    --font-body: Verdana, sans-serif;
+    --font-heading: Georgia, serif;
+    --balk-hoogte: 3.5rem;
+    --space: 1.5rem;
+
+}
+
+html{
+    scroll-padding-top: var(--balk-hoogte);
+}
+/* body: */
+body{
+    background-color: var(--color-papier);
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    line-height: 1.6;
+}
+
+/* balk: 3.5rem hoog, padding auto 2rem,
+naam: wit, vet, 1.5rem
+links: 0.75rem kapitalen 0.5rem, actieve: 1.5rem tussen*/
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-balk);
+    align-items: center;
+    height: var(--balk-hoogte);
+    gap: var(--space);
+}
+
+.logo{
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--color-actief);
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    gap: var(--space);
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color-links-balk);
+    font-size: 0.75rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase
+}
+
+nav a.actief,
+nav a:hover,
+nav a:focus{
+    color: var(--color-actief);
+}
+/* main; hoogte 44rem metpadding2rem, regelhoogte 1.6, 
+h1, 2.5rem, h2 1.75rem, tussen 3rem*/
+main{
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+h1{
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.intro{
+    color: var(--color-gedempt);
+    margin-bottom: 0.5rem;
+}
+
+.inhoud{
+    color: var(--color-gedempt);
+    padding-left: 1rem;
+}
+.inhoud a{
+    color: var(--color-ink);
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+h2{
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+/* footer; 0.875rem, center */
+footer{
+    background-color: var(--color-balk);
+    color: var(--color-links-balk);
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 1rem;
+}

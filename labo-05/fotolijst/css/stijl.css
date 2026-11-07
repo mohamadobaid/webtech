@@ -1,0 +1,53 @@
+
+:root {
+    --color-pagina:#111111;
+    --color-tekst:#f3efe6;
+    --color-groen:#4e9a52;
+    --color-roze:#f2a7d6; 
+    --color-lime:#b4f52d;
+    --color-rood:#ea4d3d;
+    --font-body: Verdana, sans-serif;
+}
+
+
+/*body: Verdana,*/
+body{
+    background-color: var(--color-pagina);
+    color: var(--color-tekst);
+    font-family: var(--font-body);
+}
+/*  36rem breed, ceter, 4rem boven onder */
+.lijst{
+    position: relative;
+    width: 36rem;
+    margin: 4rem auto;
+}
+
+/* img: vierkant, */
+.lijst img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+/* fi: center, 0.875rem, 1rem boven */
+figcaption{
+    text-align: center;
+    font-size: 0.875rem;
+    padding-top: 1rem;
+}
+
+/* vlakjes: 6rem grot, 
+groen:2rem boven en linker,
+roze: 5rem, opgroen
+lime: 6rem van onder en recht,
+rood: 3rem, op lime*/
+.vlakje{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+}
+
+.groen{background-color: var(--color-groen); top: 2rem; left: 2rem;}
+.roze{background-color: var(--color-roze); top: 5rem; left: 5rem;}
+.lime{background-color: var(--color-lime); bottom: 6rem; right: 6rem;}
+.rood{background-color: var(--color-rood); bottom: 3rem; right: 3rem;}
